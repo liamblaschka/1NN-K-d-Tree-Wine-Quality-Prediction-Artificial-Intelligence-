@@ -2,9 +2,6 @@ import argparse
 import pandas as pd
 import numpy as np
 
-STUDENT_ID = 'a1888420'
-DEGREE = 'UG'
-
 class Node:
     def __init__(self, d, value, point):
         self.d = d
